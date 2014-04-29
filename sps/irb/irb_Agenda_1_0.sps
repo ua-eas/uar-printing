@@ -185,6 +185,32 @@
 								</children>
 							</paragraph>
 							<newline/>
+							<template subtype="element" match="n1:Schedule">
+								<children>
+									<template subtype="element" match="n1:OtherBusiness">
+										<children>
+											<template subtype="element" match="n1:ActionItemDesc">
+												<children>
+													<text fixtext="Other Business:">
+														<styles font-family="Calibri" font-size="10pt" font-weight="bold"/>
+													</text>
+													<text fixtext=" ">
+														<styles font-weight="bold"/>
+													</text>
+													<content subtype="regular">
+														<styles font-family="Calibri" font-size="10pt"/>
+													</content>
+													<newline/>
+												</children>
+												<variables/>
+											</template>
+										</children>
+										<variables/>
+									</template>
+								</children>
+								<variables/>
+							</template>
+							<newline/>
 							<newline/>
 							<text fixtext="REVIEW OF PROTOCOLS">
 								<styles font-family="Calibri" font-size="12pt" font-weight="bold" text-decoration="underline"/>
@@ -193,7 +219,7 @@
 								<children>
 									<template subtype="element" match="n1:Schedule">
 										<children>
-											<template subtype="element" match="n1:ProtocolSubmission">
+											<template subtype="element" filter="boolean( n1:SubmissionDetails/n1:ProtocolReviewer )" match="n1:ProtocolSubmission">
 												<children>
 													<newline/>
 													<paragraph>
