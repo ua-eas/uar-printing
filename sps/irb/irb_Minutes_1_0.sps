@@ -16,7 +16,11 @@
 	<flags>
 		<scripts/>
 		<mainparts/>
-		<globalparts/>
+		<globalparts>
+			<globalpart match="n1:ProtocolSubmission" isactive="0"/>
+			<globalpart match="n1:ProtocolSummary" isactive="0"/>
+			<globalpart match="n1:ResearchArea" isactive="0"/>
+		</globalparts>
 		<designfragments/>
 		<pagelayouts/>
 		<xpath-functions/>
@@ -98,6 +102,7 @@
 									</textbox>
 								</children>
 							</layout-container>
+							<newline/>
 							<paragraph paragraphtag="center">
 								<children>
 									<text fixtext="Minutes">
@@ -184,60 +189,38 @@
 							</text>
 							<newline/>
 							<text fixtext="Members Present:">
-								<styles font-family="Calibri" font-size="10pt"/>
+								<styles font-family="Calibri" font-size="10pt" font-weight="bold"/>
 							</text>
 							<newline/>
 							<template subtype="element" match="n1:Schedule">
 								<children>
-									<template subtype="element" match="n1:Attendents">
+									<template subtype="element" filter="n1:GuestFlag = &apos;false&apos;" match="n1:Attendents">
 										<children>
-											<tgrid>
-												<properties border="1"/>
-												<styles border="none"/>
+											<template subtype="element" filter="../n1:PresentFlag = &apos;true&apos;
+and ../n1:GuestFlag = &apos;false&apos;" match="n1:AttendentName">
 												<children>
-													<tgridbody-cols>
-														<children>
-															<tgridcol>
-																<styles width="3.03in"/>
-															</tgridcol>
-														</children>
-													</tgridbody-cols>
-													<tgridbody-rows>
-														<children>
-															<template subtype="element" filter="../n1:PresentFlag = &apos;true&apos;
-and
-../n1:GuestFlag = &apos;false&apos;" match="n1:AttendentName">
-																<children>
-																	<tgridrow>
-																		<styles border="none"/>
-																		<children>
-																			<tgridcell>
-																				<styles border="none"/>
-																				<children>
-																					<condition>
-																						<children>
-																							<conditionbranch xpath="../n1:PresentFlag = &apos;true&apos;">
-																								<children>
-																									<content subtype="regular">
-																										<styles font-family="Calibri" font-size="10pt" font-style="italic"/>
-																										<format basic-type="xsd" datatype="string"/>
-																									</content>
-																								</children>
-																							</conditionbranch>
-																						</children>
-																					</condition>
-																					<newline/>
-																				</children>
-																			</tgridcell>
-																		</children>
-																	</tgridrow>
-																</children>
-																<variables/>
-															</template>
-														</children>
-													</tgridbody-rows>
+													<content subtype="regular">
+														<styles font-family="Calibri" font-size="10pt"/>
+													</content>
 												</children>
-											</tgrid>
+												<variables/>
+											</template>
+											<template subtype="element" match="n1:AttendantComments">
+												<children>
+													<text fixtext=" "/>
+													<text fixtext="(">
+														<styles font-size="10pt"/>
+													</text>
+													<content subtype="regular">
+														<styles font-family="Calibri" font-size="10pt"/>
+													</content>
+													<text fixtext=")">
+														<styles font-size="10pt"/>
+													</text>
+												</children>
+												<variables/>
+											</template>
+											<newline/>
 										</children>
 										<variables/>
 									</template>
@@ -247,59 +230,38 @@ and
 							<newline/>
 							<newline/>
 							<text fixtext="Other Attendees:">
-								<styles font-family="Calibri" font-size="10pt"/>
+								<styles font-family="Calibri" font-size="10pt" font-weight="bold"/>
 							</text>
 							<newline/>
 							<template subtype="element" match="n1:Schedule">
 								<children>
-									<template subtype="element" match="n1:Attendents">
+									<template subtype="element" filter="n1:GuestFlag = &apos;true&apos;" match="n1:Attendents">
 										<children>
-											<tgrid>
-												<properties border="1"/>
-												<styles border="none"/>
+											<template subtype="element" filter="../n1:PresentFlag = &apos;true&apos;
+and ../n1:GuestFlag = &apos;true&apos;" match="n1:AttendentName">
 												<children>
-													<tgridbody-cols>
-														<children>
-															<tgridcol>
-																<styles width="3.03in"/>
-															</tgridcol>
-														</children>
-													</tgridbody-cols>
-													<tgridbody-rows>
-														<children>
-															<template subtype="element" filter="../n1:PresentFlag = &apos;true&apos;
-and
-../n1:GuestFlag = &apos;true&apos;" match="n1:AttendentName">
-																<children>
-																	<tgridrow>
-																		<children>
-																			<tgridcell>
-																				<styles border="none"/>
-																				<children>
-																					<condition>
-																						<children>
-																							<conditionbranch xpath="../n1:PresentFlag = &apos;true&apos;">
-																								<children>
-																									<content subtype="regular">
-																										<styles border="none" font-family="Calibri" font-size="10pt" font-style="italic"/>
-																										<format basic-type="xsd" datatype="string"/>
-																									</content>
-																								</children>
-																							</conditionbranch>
-																						</children>
-																					</condition>
-																					<newline/>
-																				</children>
-																			</tgridcell>
-																		</children>
-																	</tgridrow>
-																</children>
-																<variables/>
-															</template>
-														</children>
-													</tgridbody-rows>
+													<content subtype="regular">
+														<styles font-family="Calibri" font-size="10pt"/>
+													</content>
 												</children>
-											</tgrid>
+												<variables/>
+											</template>
+											<template subtype="element" match="n1:AttendantComments">
+												<children>
+													<text fixtext=" "/>
+													<text fixtext="(">
+														<styles font-size="10pt"/>
+													</text>
+													<content subtype="regular">
+														<styles font-family="Calibri" font-size="10pt"/>
+													</content>
+													<text fixtext=")">
+														<styles font-size="10pt"/>
+													</text>
+												</children>
+												<variables/>
+											</template>
+											<newline/>
 										</children>
 										<variables/>
 									</template>
@@ -308,7 +270,10 @@ and
 							</template>
 							<newline/>
 							<newline/>
-							<text fixtext="Meeting Start Time: ">
+							<text fixtext="Meeting Start Time:">
+								<styles font-family="Calibri" font-size="10pt" font-weight="bold"/>
+							</text>
+							<text fixtext=" ">
 								<styles font-family="Calibri" font-size="10pt"/>
 							</text>
 							<template subtype="element" match="n1:Schedule">
@@ -331,7 +296,10 @@ and
 								<variables/>
 							</template>
 							<newline/>
-							<text fixtext="Meeting End Time: ">
+							<text fixtext="Meeting End Time:">
+								<styles font-family="Calibri" font-size="10pt" font-weight="bold"/>
+							</text>
+							<text fixtext=" ">
 								<styles font-family="Calibri" font-size="10pt"/>
 							</text>
 							<template subtype="element" match="n1:Schedule">
@@ -354,17 +322,45 @@ and
 								<variables/>
 							</template>
 							<newline/>
-							<newline break="page"/>
-							<text fixtext="REVIEW OF PROTOCOLS">
-								<styles font-family="Calibri" font-size="12pt" font-weight="bold" text-decoration="underline"/>
-							</text>
+							<newline/>
+							<template subtype="element" match="n1:Schedule">
+								<children>
+									<template subtype="element" match="n1:OtherBusiness">
+										<children>
+											<template subtype="element" match="n1:ActionItemDesc">
+												<children>
+													<text fixtext="Other Business:">
+														<styles font-family="Calibri" font-size="10pt" font-weight="bold"/>
+													</text>
+													<text fixtext=" ">
+														<styles font-weight="bold"/>
+													</text>
+													<content subtype="regular">
+														<styles font-family="Calibri" font-size="10pt"/>
+													</content>
+													<newline/>
+												</children>
+												<variables/>
+											</template>
+										</children>
+										<variables/>
+									</template>
+								</children>
+								<variables/>
+							</template>
+							<newline/>
+							<newline/>
 							<newline/>
 							<paragraph>
 								<children>
 									<template subtype="element" match="n1:Schedule">
 										<children>
-											<template subtype="element" match="n1:ProtocolSubmission">
+											<template subtype="element" filter="boolean( n1:SubmissionDetails/n1:ProtocolReviewer )" match="n1:ProtocolSubmission">
 												<children>
+													<newline break="page"/>
+													<text fixtext="REVIEW OF PROTOCOL:">
+														<styles font-family="Calibri" font-size="12pt" font-weight="bold" text-decoration="underline"/>
+													</text>
 													<newline/>
 													<paragraph>
 														<children>
@@ -806,8 +802,6 @@ and
 															</tgridbody-rows>
 														</children>
 													</tgrid>
-													<newline/>
-													<newline break="page"/>
 												</children>
 												<variables/>
 											</template>
@@ -825,41 +819,9 @@ and
 	</mainparts>
 	<globalparts>
 		<children>
-			<globaltemplate subtype="element" match="n1:ProtocolSubmission">
-				<children>
-					<template subtype="element" match="n1:ProtocolSubmission">
-						<children>
-							<newline/>
-							<newline/>
-							<newline/>
-							<newline/>
-						</children>
-						<variables/>
-					</template>
-				</children>
-			</globaltemplate>
-			<globaltemplate subtype="element" match="n1:ProtocolSummary">
-				<children>
-					<template subtype="element" match="n1:ProtocolSummary">
-						<children>
-							<newline/>
-							<newline/>
-							<newline/>
-						</children>
-						<variables/>
-					</template>
-				</children>
-			</globaltemplate>
-			<globaltemplate subtype="element" match="n1:ResearchArea">
-				<children>
-					<template subtype="element" match="n1:ResearchArea">
-						<children>
-							<content subtype="regular"/>
-						</children>
-						<variables/>
-					</template>
-				</children>
-			</globaltemplate>
+			<globaltemplate subtype="element" match="n1:ProtocolSubmission"/>
+			<globaltemplate subtype="element" match="n1:ProtocolSummary"/>
+			<globaltemplate subtype="element" match="n1:ResearchArea"/>
 		</children>
 	</globalparts>
 	<designfragments/>
