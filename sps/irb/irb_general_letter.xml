@@ -1,0 +1,577 @@
+<irb:Correspondence xmlns:irb="http://irb.mit.edu/irbnamespace">
+	<irb:Protocol>
+		<irb:ProtocolMasterData>
+			<irb:ProtocolNumber>1305013194</irb:ProtocolNumber>
+			<irb:DocumentNumber>110951</irb:DocumentNumber>
+			<irb:SequenceNumber>0</irb:SequenceNumber>
+			<irb:ProtocolTypeCode>1</irb:ProtocolTypeCode>
+			<irb:ProtocolTypeDesc>Standard</irb:ProtocolTypeDesc>
+			<irb:ProtocolStatusCode>200</irb:ProtocolStatusCode>
+			<irb:ProtocolStatusDesc>Active - Open to Enrollment</irb:ProtocolStatusDesc>
+			<irb:ProtocolTitle>Kari's Super Protocol!  Protocol Title captured here.  This protocol was created on 5.29.13</irb:ProtocolTitle>
+			<irb:ProtocolDescription>Summary and keyword for drugs and devices captured here.</irb:ProtocolDescription>
+			<irb:ApplicationDate>2013-05-29-07:00</irb:ApplicationDate>
+			<irb:ApprovalDate>2013-06-02</irb:ApprovalDate>
+			<irb:ExpirationDate>2014-06-01</irb:ExpirationDate>
+			<irb:BillableFlag>false</irb:BillableFlag>
+			<irb:FdaApplicationNumber>123456</irb:FdaApplicationNumber>
+			<irb:RefNumber1>reference ID 1</irb:RefNumber1>
+			<irb:RefNumber2>reference ID 2</irb:RefNumber2>
+		</irb:ProtocolMasterData>
+		<irb:Investigator>
+			<irb:Person>
+				<irb:PersonID>112707439853</irb:PersonID>
+				<irb:LastName>Garland</irb:LastName>
+				<irb:Salutation/>
+				<irb:Firstname>Linda</irb:Firstname>
+				<irb:Fullname>Linda L Garland</irb:Fullname>
+				<irb:Email>lgarland@azcc.arizona.edu</irb:Email>
+				<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:OfficePhone>520-626-3434</irb:OfficePhone>
+				<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:AddressLine1>Cancer Center Division</irb:AddressLine1>
+				<irb:AddressLine2>245024</irb:AddressLine2>
+				<irb:AddressLine3/>
+				<irb:City>TUCSON</irb:City>
+				<irb:Country>USA</irb:Country>
+				<irb:State>AZ</irb:State>
+				<irb:PostalCode>85724-5024</irb:PostalCode>
+				<irb:CountryCode>USA</irb:CountryCode>
+				<irb:FaxNumber/>
+				<irb:PagerNumber/>
+				<irb:MobilePhoneNumber/>
+			</irb:Person>
+			<irb:PI_flag>true</irb:PI_flag>
+		</irb:Investigator>
+		<irb:ResearchArea>
+			<irb:ResearchAreaCode>000001</irb:ResearchAreaCode>
+			<irb:ResearchAreaDescription>All Research Areas</irb:ResearchAreaDescription>
+		</irb:ResearchArea>
+		<irb:FundingSource>
+			<irb:FundingSourceName>American Heart Association, Incorporated</irb:FundingSourceName>
+		</irb:FundingSource>
+		<irb:VulnerableSubject>
+			<irb:VulnerableSubjectTypeCode>1</irb:VulnerableSubjectTypeCode>
+			<irb:VulnerableSubjectTypeDesc>Children</irb:VulnerableSubjectTypeDesc>
+		</irb:VulnerableSubject>
+		<irb:VulnerableSubject>
+			<irb:VulnerableSubjectTypeCode>10</irb:VulnerableSubjectTypeCode>
+			<irb:VulnerableSubjectTypeDesc>Decisionally Impaired</irb:VulnerableSubjectTypeDesc>
+		</irb:VulnerableSubject>
+		<irb:VulnerableSubject>
+			<irb:VulnerableSubjectTypeCode>2</irb:VulnerableSubjectTypeCode>
+			<irb:VulnerableSubjectTypeDesc>Healthy Individuals</irb:VulnerableSubjectTypeDesc>
+		</irb:VulnerableSubject>
+		<irb:VulnerableSubject>
+			<irb:VulnerableSubjectTypeCode>3</irb:VulnerableSubjectTypeCode>
+			<irb:VulnerableSubjectTypeDesc>Native American/Indigenous Populations</irb:VulnerableSubjectTypeDesc>
+		</irb:VulnerableSubject>
+		<irb:SpecialReview>
+			<irb:SpecialReviewNumber>1</irb:SpecialReviewNumber>
+			<irb:SpecialReviewTypeCode>26</irb:SpecialReviewTypeCode>
+			<irb:SpecialReviewTypeDesc>Bio Safety and Radiation</irb:SpecialReviewTypeDesc>
+			<irb:SpecialReviewApprovalTypeCode>3</irb:SpecialReviewApprovalTypeCode>
+			<irb:SpecialReviewApprovalTypeDesc>Not Yet Applied</irb:SpecialReviewApprovalTypeDesc>
+			<irb:SpecialReviewProtocolNumber>123456</irb:SpecialReviewProtocolNumber>
+			<irb:SpecialReviewApplicationDate>2013-05-29-07:00</irb:SpecialReviewApplicationDate>
+			<irb:SpecialReviewApprovalDate>2013-05-29-07:00</irb:SpecialReviewApprovalDate>
+			<irb:SpecialReviewComments xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+		</irb:SpecialReview>
+		<irb:SpecialReview>
+			<irb:SpecialReviewNumber>2</irb:SpecialReviewNumber>
+			<irb:SpecialReviewTypeCode>36</irb:SpecialReviewTypeCode>
+			<irb:SpecialReviewTypeDesc>Conflict of Interest (COI)</irb:SpecialReviewTypeDesc>
+			<irb:SpecialReviewApprovalTypeCode>2</irb:SpecialReviewApprovalTypeCode>
+			<irb:SpecialReviewApprovalTypeDesc>Approved</irb:SpecialReviewApprovalTypeDesc>
+			<irb:SpecialReviewProtocolNumber>111111</irb:SpecialReviewProtocolNumber>
+			<irb:SpecialReviewApplicationDate>2013-05-22-07:00</irb:SpecialReviewApplicationDate>
+			<irb:SpecialReviewApprovalDate>2013-05-23-07:00</irb:SpecialReviewApprovalDate>
+			<irb:SpecialReviewComments xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+		</irb:SpecialReview>
+		<irb:RiskLevels>
+			<irb:RiskLevelCode>29</irb:RiskLevelCode>
+			<irb:RiskLevelDescription>21 CFR 56.104(c)</irb:RiskLevelDescription>
+			<irb:Comments>Risk level 1</irb:Comments>
+			<irb:DateAssigned>2013-05-29-07:00</irb:DateAssigned>
+			<irb:DateUpdated>2013-05-29-07:00</irb:DateUpdated>
+			<irb:Status>Active</irb:Status>
+			<irb:UpdateUser>krobertson</irb:UpdateUser>
+			<irb:UpdateTimestamp>2013-05-29-07:00</irb:UpdateTimestamp>
+		</irb:RiskLevels>
+		<irb:RiskLevels>
+			<irb:RiskLevelCode>28</irb:RiskLevelCode>
+			<irb:RiskLevelDescription>21 CFR 56.110</irb:RiskLevelDescription>
+			<irb:Comments>Risk level 2</irb:Comments>
+			<irb:DateAssigned>2013-05-29-07:00</irb:DateAssigned>
+			<irb:DateUpdated>2013-05-29-07:00</irb:DateUpdated>
+			<irb:Status>Active</irb:Status>
+			<irb:UpdateUser>krobertson</irb:UpdateUser>
+			<irb:UpdateTimestamp>2013-05-29-07:00</irb:UpdateTimestamp>
+		</irb:RiskLevels>
+		<irb:Submissions>
+			<irb:SubmissionDetails>
+				<irb:ProtocolNumber>1305013194</irb:ProtocolNumber>
+				<irb:SubmissionNumber>1</irb:SubmissionNumber>
+				<irb:SubmissionTypeCode>100</irb:SubmissionTypeCode>
+				<irb:SubmissionTypeDesc>Initial Protocol Application for Approval</irb:SubmissionTypeDesc>
+				<irb:ProtocolReviewTypeCode>2</irb:ProtocolReviewTypeCode>
+				<irb:ProtocolReviewTypeDesc>Expedited</irb:ProtocolReviewTypeDesc>
+				<irb:SubmissionStatusCode>203</irb:SubmissionStatusCode>
+				<irb:SubmissionStatusDesc>Approved</irb:SubmissionStatusDesc>
+				<irb:SubmissionDate>2013-05-29-07:00</irb:SubmissionDate>
+				<irb:SubmissionComments xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:AbstainerCount>0</irb:AbstainerCount>
+				<irb:VotingComments xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:ProtocolReviewer>
+					<irb:Person>
+						<irb:PersonID>115545259718</irb:PersonID>
+						<irb:LastName>Moore</irb:LastName>
+						<irb:Salutation/>
+						<irb:Firstname>Ida</irb:Firstname>
+						<irb:Fullname>Ida M Moore</irb:Fullname>
+						<irb:Email>kmoore@nursing.arizona.edu</irb:Email>
+						<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<irb:OfficePhone>520-626-6205</irb:OfficePhone>
+						<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+						<irb:AddressLine1>College of Nursing</irb:AddressLine1>
+						<irb:AddressLine2>PO Box 210203</irb:AddressLine2>
+						<irb:AddressLine3/>
+						<irb:City>Tucson</irb:City>
+						<irb:Country>USA</irb:Country>
+						<irb:State>AZ</irb:State>
+						<irb:PostalCode>85721</irb:PostalCode>
+						<irb:CountryCode>USA</irb:CountryCode>
+						<irb:FaxNumber/>
+						<irb:PagerNumber/>
+						<irb:MobilePhoneNumber/>
+					</irb:Person>
+					<irb:ReviewerTypeDesc>Primary</irb:ReviewerTypeDesc>
+					<irb:ReviewerTypeCode>1</irb:ReviewerTypeCode>
+				</irb:ProtocolReviewer>
+				<irb:SubmissionChecklistInfo>
+					<irb:ChecklistCodesFormatted>(12) </irb:ChecklistCodesFormatted>
+					<irb:Checklists>
+						<irb:ChecklistCode>12</irb:ChecklistCode>
+						<irb:ChecklistDescription>Eligible for Expedite Approval (45 CFR 46.110): Identification of the subjects or their responses (or the remaining procedures involving identification of subjects or their responses) will NOT reasonably place them at risk of criminal or civil liability or be damaging to the their financial standing, employability, insurability, reputation, or be stigmatizing, unless reasonable and appropriate protections will be implemented so that risks related to invasion of privacy and breach of confidentiality are no greater than minimal.</irb:ChecklistDescription>
+					</irb:Checklists>
+				</irb:SubmissionChecklistInfo>
+				<irb:ActionType>
+					<irb:ActionId>2</irb:ActionId>
+					<irb:ActionTypeCode>101</irb:ActionTypeCode>
+					<irb:ActionTypeDescription>Submitted to IRB</irb:ActionTypeDescription>
+					<irb:ActionDate>2013-05-29-07:00</irb:ActionDate>
+					<irb:ActionComments>Submitted to IRB</irb:ActionComments>
+				</irb:ActionType>
+			</irb:SubmissionDetails>
+			<irb:CommitteeMasterData>
+				<irb:CommitteeId>Chairs</irb:CommitteeId>
+				<irb:CommitteeName>Expedited/Exempt</irb:CommitteeName>
+				<irb:HomeUnitNumber>9906</irb:HomeUnitNumber>
+				<irb:HomeUnitName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:CommitteeTypeCode>1</irb:CommitteeTypeCode>
+				<irb:CommitteeTypeDesc>IRB</irb:CommitteeTypeDesc>
+				<irb:ScheduleDescription xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:MinimumMembersRequired>1</irb:MinimumMembersRequired>
+				<irb:MaxProtocols>2500</irb:MaxProtocols>
+				<irb:AdvSubmissionDays>0</irb:AdvSubmissionDays>
+				<irb:DefaultReviewTypeCode>2</irb:DefaultReviewTypeCode>
+				<irb:DefaultReviewTypeDesc>Expedited</irb:DefaultReviewTypeDesc>
+			</irb:CommitteeMasterData>
+			<irb:CommitteeMember>
+				<irb:Person>
+					<irb:PersonID>112070442993</irb:PersonID>
+					<irb:LastName>Park</irb:LastName>
+					<irb:Salutation/>
+					<irb:Firstname>Thomas</irb:Firstname>
+					<irb:Fullname>Thomas K Park</irb:Fullname>
+					<irb:Email>tpark@email.arizona.edu</irb:Email>
+					<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficePhone>520-621-2632</irb:OfficePhone>
+					<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:FacultyFlag>false</irb:FacultyFlag>
+					<irb:EmployeeFlag>false</irb:EmployeeFlag>
+					<irb:AddressLine1>School of Anthropology</irb:AddressLine1>
+					<irb:AddressLine2>PO Box 210030</irb:AddressLine2>
+					<irb:AddressLine3/>
+					<irb:City>TUCSON</irb:City>
+					<irb:Country>USA</irb:Country>
+					<irb:State>AZ</irb:State>
+					<irb:PostalCode>85721-0030</irb:PostalCode>
+					<irb:CountryCode>USA</irb:CountryCode>
+					<irb:FaxNumber/>
+					<irb:PagerNumber/>
+					<irb:MobilePhoneNumber/>
+				</irb:Person>
+				<irb:TermStart>2013-05-01-07:00</irb:TermStart>
+				<irb:TermEnd>2013-12-31-07:00</irb:TermEnd>
+				<irb:MemberStatus>active</irb:MemberStatus>
+				<irb:MemberStatusStartDt>2013-05-29-07:00</irb:MemberStatusStartDt>
+				<irb:MemberStatusEndDt>2013-05-29-07:00</irb:MemberStatusEndDt>
+				<irb:MemberType>Voting member</irb:MemberType>
+				<irb:ResearchArea>
+					<irb:ResearchAreaCode>000001</irb:ResearchAreaCode>
+					<irb:ResearchAreaDescription>All Research Areas</irb:ResearchAreaDescription>
+				</irb:ResearchArea>
+				<irb:PaidMemberFlag>false</irb:PaidMemberFlag>
+				<irb:CommitteeMemberRole>
+					<irb:MemberRoleCode>4</irb:MemberRoleCode>
+					<irb:MemberRoleDesc>Member</irb:MemberRoleDesc>
+					<irb:MemberRoleStartDt>2013-05-01-07:00</irb:MemberRoleStartDt>
+					<irb:MemberRoleEndDt>2013-12-31-07:00</irb:MemberRoleEndDt>
+				</irb:CommitteeMemberRole>
+			</irb:CommitteeMember>
+			<irb:CommitteeMember>
+				<irb:Person>
+					<irb:PersonID>112707439853</irb:PersonID>
+					<irb:LastName>Garland</irb:LastName>
+					<irb:Salutation/>
+					<irb:Firstname>Linda</irb:Firstname>
+					<irb:Fullname>Linda L Garland</irb:Fullname>
+					<irb:Email>lgarland@azcc.arizona.edu</irb:Email>
+					<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficePhone>520-626-3434</irb:OfficePhone>
+					<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:FacultyFlag>false</irb:FacultyFlag>
+					<irb:EmployeeFlag>false</irb:EmployeeFlag>
+					<irb:AddressLine1>Cancer Center Division</irb:AddressLine1>
+					<irb:AddressLine2>245024</irb:AddressLine2>
+					<irb:AddressLine3/>
+					<irb:City>TUCSON</irb:City>
+					<irb:Country>USA</irb:Country>
+					<irb:State>AZ</irb:State>
+					<irb:PostalCode>85724-5024</irb:PostalCode>
+					<irb:CountryCode>USA</irb:CountryCode>
+					<irb:FaxNumber/>
+					<irb:PagerNumber/>
+					<irb:MobilePhoneNumber/>
+				</irb:Person>
+				<irb:TermStart>2013-05-01-07:00</irb:TermStart>
+				<irb:TermEnd>2013-12-31-07:00</irb:TermEnd>
+				<irb:MemberStatus>active</irb:MemberStatus>
+				<irb:MemberStatusStartDt>2013-05-29-07:00</irb:MemberStatusStartDt>
+				<irb:MemberStatusEndDt>2013-05-29-07:00</irb:MemberStatusEndDt>
+				<irb:MemberType>Voting member</irb:MemberType>
+				<irb:ResearchArea>
+					<irb:ResearchAreaCode>000001</irb:ResearchAreaCode>
+					<irb:ResearchAreaDescription>All Research Areas</irb:ResearchAreaDescription>
+				</irb:ResearchArea>
+				<irb:PaidMemberFlag>false</irb:PaidMemberFlag>
+				<irb:CommitteeMemberRole>
+					<irb:MemberRoleCode>4</irb:MemberRoleCode>
+					<irb:MemberRoleDesc>Member</irb:MemberRoleDesc>
+					<irb:MemberRoleStartDt>2013-05-01-07:00</irb:MemberRoleStartDt>
+					<irb:MemberRoleEndDt>2013-12-31-07:00</irb:MemberRoleEndDt>
+				</irb:CommitteeMemberRole>
+			</irb:CommitteeMember>
+			<irb:CommitteeMember>
+				<irb:Person>
+					<irb:PersonID>103117628452</irb:PersonID>
+					<irb:LastName>Lichtenthal</irb:LastName>
+					<irb:Salutation/>
+					<irb:Firstname>Peter</irb:Firstname>
+					<irb:Fullname>Peter R Lichtenthal</irb:Fullname>
+					<irb:Email>plich@email.arizona.edu</irb:Email>
+					<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficePhone>520-626-7221</irb:OfficePhone>
+					<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:FacultyFlag>false</irb:FacultyFlag>
+					<irb:EmployeeFlag>false</irb:EmployeeFlag>
+					<irb:AddressLine1>Anesthesiology</irb:AddressLine1>
+					<irb:AddressLine2>245114</irb:AddressLine2>
+					<irb:AddressLine3/>
+					<irb:City>TUCSON</irb:City>
+					<irb:Country>USA</irb:Country>
+					<irb:State>AZ</irb:State>
+					<irb:PostalCode>85724-5114</irb:PostalCode>
+					<irb:CountryCode>USA</irb:CountryCode>
+					<irb:FaxNumber/>
+					<irb:PagerNumber/>
+					<irb:MobilePhoneNumber/>
+				</irb:Person>
+				<irb:TermStart>2013-05-01-07:00</irb:TermStart>
+				<irb:TermEnd>2013-12-31-07:00</irb:TermEnd>
+				<irb:MemberStatus>active</irb:MemberStatus>
+				<irb:MemberStatusStartDt>2013-05-29-07:00</irb:MemberStatusStartDt>
+				<irb:MemberStatusEndDt>2013-05-29-07:00</irb:MemberStatusEndDt>
+				<irb:MemberType>Voting member</irb:MemberType>
+				<irb:ResearchArea>
+					<irb:ResearchAreaCode>000001</irb:ResearchAreaCode>
+					<irb:ResearchAreaDescription>All Research Areas</irb:ResearchAreaDescription>
+				</irb:ResearchArea>
+				<irb:PaidMemberFlag>false</irb:PaidMemberFlag>
+				<irb:CommitteeMemberRole>
+					<irb:MemberRoleCode>4</irb:MemberRoleCode>
+					<irb:MemberRoleDesc>Member</irb:MemberRoleDesc>
+					<irb:MemberRoleStartDt>2013-05-01-07:00</irb:MemberRoleStartDt>
+					<irb:MemberRoleEndDt>2013-12-31-07:00</irb:MemberRoleEndDt>
+				</irb:CommitteeMemberRole>
+			</irb:CommitteeMember>
+			<irb:CommitteeMember>
+				<irb:Person>
+					<irb:PersonID>115545259718</irb:PersonID>
+					<irb:LastName>Moore</irb:LastName>
+					<irb:Salutation/>
+					<irb:Firstname>Ida</irb:Firstname>
+					<irb:Fullname>Ida M Moore</irb:Fullname>
+					<irb:Email>kmoore@nursing.arizona.edu</irb:Email>
+					<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficePhone>520-626-6205</irb:OfficePhone>
+					<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:FacultyFlag>false</irb:FacultyFlag>
+					<irb:EmployeeFlag>false</irb:EmployeeFlag>
+					<irb:AddressLine1>College of Nursing</irb:AddressLine1>
+					<irb:AddressLine2>PO Box 210203</irb:AddressLine2>
+					<irb:AddressLine3/>
+					<irb:City>Tucson</irb:City>
+					<irb:Country>USA</irb:Country>
+					<irb:State>AZ</irb:State>
+					<irb:PostalCode>85721</irb:PostalCode>
+					<irb:CountryCode>USA</irb:CountryCode>
+					<irb:FaxNumber/>
+					<irb:PagerNumber/>
+					<irb:MobilePhoneNumber/>
+				</irb:Person>
+				<irb:TermStart>2013-05-01-07:00</irb:TermStart>
+				<irb:TermEnd>2013-12-31-07:00</irb:TermEnd>
+				<irb:MemberStatus>active</irb:MemberStatus>
+				<irb:MemberStatusStartDt>2013-05-29-07:00</irb:MemberStatusStartDt>
+				<irb:MemberStatusEndDt>2013-05-29-07:00</irb:MemberStatusEndDt>
+				<irb:MemberType>Voting member</irb:MemberType>
+				<irb:ResearchArea>
+					<irb:ResearchAreaCode>000001</irb:ResearchAreaCode>
+					<irb:ResearchAreaDescription>All Research Areas</irb:ResearchAreaDescription>
+				</irb:ResearchArea>
+				<irb:PaidMemberFlag>false</irb:PaidMemberFlag>
+				<irb:CommitteeMemberRole>
+					<irb:MemberRoleCode>4</irb:MemberRoleCode>
+					<irb:MemberRoleDesc>Member</irb:MemberRoleDesc>
+					<irb:MemberRoleStartDt>2013-05-01-07:00</irb:MemberRoleStartDt>
+					<irb:MemberRoleEndDt>2013-12-31-07:00</irb:MemberRoleEndDt>
+				</irb:CommitteeMemberRole>
+			</irb:CommitteeMember>
+			<irb:CommitteeMember>
+				<irb:Person>
+					<irb:PersonID>115605455407</irb:PersonID>
+					<irb:LastName>Goodwin</irb:LastName>
+					<irb:Salutation/>
+					<irb:Firstname>James</irb:Firstname>
+					<irb:Fullname>James L Goodwin</irb:Fullname>
+					<irb:Email>jamieg@arc.arizona.edu</irb:Email>
+					<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficePhone>520-626-5001</irb:OfficePhone>
+					<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:FacultyFlag>false</irb:FacultyFlag>
+					<irb:EmployeeFlag>false</irb:EmployeeFlag>
+					<irb:AddressLine1>Arizona Respiratory Center</irb:AddressLine1>
+					<irb:AddressLine2>245030</irb:AddressLine2>
+					<irb:AddressLine3/>
+					<irb:City>TUCSON</irb:City>
+					<irb:Country>USA</irb:Country>
+					<irb:State>AZ</irb:State>
+					<irb:PostalCode>85724-5030</irb:PostalCode>
+					<irb:CountryCode>USA</irb:CountryCode>
+					<irb:FaxNumber/>
+					<irb:PagerNumber/>
+					<irb:MobilePhoneNumber/>
+				</irb:Person>
+				<irb:TermStart>2013-05-01-07:00</irb:TermStart>
+				<irb:TermEnd>2013-12-31-07:00</irb:TermEnd>
+				<irb:MemberStatus>active</irb:MemberStatus>
+				<irb:MemberStatusStartDt>2013-05-29-07:00</irb:MemberStatusStartDt>
+				<irb:MemberStatusEndDt>2013-05-29-07:00</irb:MemberStatusEndDt>
+				<irb:MemberType>Voting member</irb:MemberType>
+				<irb:ResearchArea>
+					<irb:ResearchAreaCode>000001</irb:ResearchAreaCode>
+					<irb:ResearchAreaDescription>All Research Areas</irb:ResearchAreaDescription>
+				</irb:ResearchArea>
+				<irb:PaidMemberFlag>false</irb:PaidMemberFlag>
+				<irb:CommitteeMemberRole>
+					<irb:MemberRoleCode>4</irb:MemberRoleCode>
+					<irb:MemberRoleDesc>Member</irb:MemberRoleDesc>
+					<irb:MemberRoleStartDt>2013-05-01-07:00</irb:MemberRoleStartDt>
+					<irb:MemberRoleEndDt>2013-12-31-07:00</irb:MemberRoleEndDt>
+				</irb:CommitteeMemberRole>
+			</irb:CommitteeMember>
+			<irb:CommitteeMember>
+				<irb:Person>
+					<irb:PersonID>116666954717</irb:PersonID>
+					<irb:LastName>Wittman</irb:LastName>
+					<irb:Salutation/>
+					<irb:Firstname>Brenda</irb:Firstname>
+					<irb:Fullname>Brenda J Wittman</irb:Fullname>
+					<irb:Email>wittman@peds.arizona.edu</irb:Email>
+					<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficePhone>520-626-4851</irb:OfficePhone>
+					<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:FacultyFlag>false</irb:FacultyFlag>
+					<irb:EmployeeFlag>false</irb:EmployeeFlag>
+					<irb:AddressLine1>Pediatrics</irb:AddressLine1>
+					<irb:AddressLine2>245073</irb:AddressLine2>
+					<irb:AddressLine3/>
+					<irb:City>TUCSON</irb:City>
+					<irb:Country>USA</irb:Country>
+					<irb:State>AZ</irb:State>
+					<irb:PostalCode>85724-5073</irb:PostalCode>
+					<irb:CountryCode>USA</irb:CountryCode>
+					<irb:FaxNumber/>
+					<irb:PagerNumber/>
+					<irb:MobilePhoneNumber/>
+				</irb:Person>
+				<irb:TermStart>2013-05-01-07:00</irb:TermStart>
+				<irb:TermEnd>2013-12-31-07:00</irb:TermEnd>
+				<irb:MemberStatus>active</irb:MemberStatus>
+				<irb:MemberStatusStartDt>2013-05-29-07:00</irb:MemberStatusStartDt>
+				<irb:MemberStatusEndDt>2013-05-29-07:00</irb:MemberStatusEndDt>
+				<irb:MemberType>Voting member</irb:MemberType>
+				<irb:ResearchArea>
+					<irb:ResearchAreaCode>000001</irb:ResearchAreaCode>
+					<irb:ResearchAreaDescription>All Research Areas</irb:ResearchAreaDescription>
+				</irb:ResearchArea>
+				<irb:PaidMemberFlag>false</irb:PaidMemberFlag>
+				<irb:CommitteeMemberRole>
+					<irb:MemberRoleCode>4</irb:MemberRoleCode>
+					<irb:MemberRoleDesc>Member</irb:MemberRoleDesc>
+					<irb:MemberRoleStartDt>2013-05-01-07:00</irb:MemberRoleStartDt>
+					<irb:MemberRoleEndDt>2013-12-31-07:00</irb:MemberRoleEndDt>
+				</irb:CommitteeMemberRole>
+			</irb:CommitteeMember>
+			<irb:CommitteeMember>
+				<irb:Person>
+					<irb:PersonID>105874561958</irb:PersonID>
+					<irb:LastName>Marsh</irb:LastName>
+					<irb:Salutation/>
+					<irb:Firstname>Mariette</irb:Firstname>
+					<irb:Fullname>Mariette T Marsh</irb:Fullname>
+					<irb:Email>marshm@email.arizona.edu</irb:Email>
+					<irb:Degree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficeLocation xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:OfficePhone>520-626-7575</irb:OfficePhone>
+					<irb:Department_Organization xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:DirectoryTitle xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+					<irb:FacultyFlag>false</irb:FacultyFlag>
+					<irb:EmployeeFlag>false</irb:EmployeeFlag>
+					<irb:AddressLine1>VP for Research Office</irb:AddressLine1>
+					<irb:AddressLine2>PO Box 210409</irb:AddressLine2>
+					<irb:AddressLine3/>
+					<irb:City>TUCSON</irb:City>
+					<irb:Country>USA</irb:Country>
+					<irb:State>AZ</irb:State>
+					<irb:PostalCode>85721-0066</irb:PostalCode>
+					<irb:CountryCode>USA</irb:CountryCode>
+					<irb:FaxNumber/>
+					<irb:PagerNumber/>
+					<irb:MobilePhoneNumber/>
+				</irb:Person>
+				<irb:TermStart>2013-05-01-07:00</irb:TermStart>
+				<irb:TermEnd>2013-12-31-07:00</irb:TermEnd>
+				<irb:MemberStatus>active</irb:MemberStatus>
+				<irb:MemberStatusStartDt>2013-05-29-07:00</irb:MemberStatusStartDt>
+				<irb:MemberStatusEndDt>2013-05-29-07:00</irb:MemberStatusEndDt>
+				<irb:MemberType>Voting member</irb:MemberType>
+				<irb:ResearchArea>
+					<irb:ResearchAreaCode>000001</irb:ResearchAreaCode>
+					<irb:ResearchAreaDescription>All Research Areas</irb:ResearchAreaDescription>
+				</irb:ResearchArea>
+				<irb:PaidMemberFlag>false</irb:PaidMemberFlag>
+				<irb:CommitteeMemberRole>
+					<irb:MemberRoleCode>4</irb:MemberRoleCode>
+					<irb:MemberRoleDesc>Member</irb:MemberRoleDesc>
+					<irb:MemberRoleStartDt>2013-05-01-07:00</irb:MemberRoleStartDt>
+					<irb:MemberRoleEndDt>2013-12-31-07:00</irb:MemberRoleEndDt>
+				</irb:CommitteeMemberRole>
+			</irb:CommitteeMember>
+			<irb:Minutes>
+				<irb:ScheduleId>19419</irb:ScheduleId>
+				<irb:EntryNumber>0</irb:EntryNumber>
+				<irb:EntryTypeCode>6</irb:EntryTypeCode>
+				<irb:EntryTypeDesc>Protocol Reviewer Comment</irb:EntryTypeDesc>
+				<irb:EntrySortCode>6</irb:EntrySortCode>
+				<irb:ProtocolNumber>1305013194</irb:ProtocolNumber>
+				<irb:PrivateCommentFlag>false</irb:PrivateCommentFlag>
+				<irb:ProtocolContingencyCode>71</irb:ProtocolContingencyCode>
+				<irb:MinuteEntry>Criteria for Approval has been met (45 CFR 46.111): The criteria for approval listed in 45 CFR 46.111 have been met (or if previously met, have not changed) in that (1) Risks to subjects are minimized: (i) By using procedures which are consistent with sound research design and which do not unnecessarily expose subjects to risk, and (ii) whenever appropriate, by using procedures already being performed on the subjects for diagnostic or treatment purposes. (2) Risks to subjects are reasonable in relation to anticipated benefits, if any, to subjects, and the importance of the knowledge that may reasonably be expected to result. In evaluating risks and benefits, the IRB should consider only those risks and benefits that may result from the research (as distinguished from risks and benefits of therapies subjects would receive even if not participating in the research). The IRB should not consider possible long-range effects of applying knowledge gained in the research (for example, the possible effects of the research on public policy) as among those research risks that fall within the purview of its responsibility. (3) Selection of subjects is equitable. In making this assessment the IRB should take into account the purposes of the research and the setting in which the research will be conducted and should be particularly cognizant of the special problems of research involving vulnerable populations, such as children, prisoners, pregnant women, mentally disabled persons, or economically or educationally disadvantaged persons. (4) Informed consent will be sought from each prospective subject or the subject's legally authorized representative, in accordance with, and to the extent required by 46.116. (5) Informed consent will be appropriately documented, in accordance with, and to the extent required by 46.117. (6) When appropriate, the research plan makes adequate provision for monitoring the data collected to ensure the safety of subjects. (7) When appropriate, there are adequate provisions to protect the privacy of subjects and to maintain the confidentiality of data.  (b)  When some or all of the subjects are likely to be vulnerable to coercion or undue influence, such as children, prisoners, pregnant women, mentally disabled persons, or economically or educationally disadvantaged persons,  additional safeguards have been included in the study to protect the rights and welfare of these subjects.</irb:MinuteEntry>
+			</irb:Minutes>
+			<irb:Minutes>
+				<irb:ScheduleId>19419</irb:ScheduleId>
+				<irb:EntryNumber>1</irb:EntryNumber>
+				<irb:EntryTypeCode>6</irb:EntryTypeCode>
+				<irb:EntryTypeDesc>Protocol Reviewer Comment</irb:EntryTypeDesc>
+				<irb:EntrySortCode>6</irb:EntrySortCode>
+				<irb:ProtocolNumber>1305013194</irb:ProtocolNumber>
+				<irb:PrivateCommentFlag>true</irb:PrivateCommentFlag>
+				<irb:ProtocolContingencyCode>77</irb:ProtocolContingencyCode>
+				<irb:MinuteEntry>Expedite Approval (45 CFR 46.110 Category 2): Collection of blood samples by finger stick, heel stick, ear stick, or venipuncture as follows: (a) from healthy, nonpregnant adults who weigh at least 110 pounds. For these subjects, the amounts drawn may not exceed 550 ml in an 8 week period and collection may not occur more frequently than 2 times per week; or (b) from other adults and children, considering the age, weight, and health of the subjects, the collection procedure, the amount of blood to be collected, and the frequency with which it will be collected. For these subjects, the amount drawn may not exceed the lesser of 50 ml or 3 ml per kg in an 8 week period and collection may not occur more frequently than 2 times per week.</irb:MinuteEntry>
+			</irb:Minutes>
+			<irb:Minutes>
+				<irb:ScheduleId>19419</irb:ScheduleId>
+				<irb:EntryNumber>2</irb:EntryNumber>
+				<irb:EntryTypeCode>6</irb:EntryTypeCode>
+				<irb:EntryTypeDesc>Protocol Reviewer Comment</irb:EntryTypeDesc>
+				<irb:EntrySortCode>6</irb:EntrySortCode>
+				<irb:ProtocolNumber>1305013194</irb:ProtocolNumber>
+				<irb:PrivateCommentFlag>false</irb:PrivateCommentFlag>
+				<irb:ProtocolContingencyCode>87</irb:ProtocolContingencyCode>
+				<irb:MinuteEntry>Vulnerable Population - Pregnant Women (45 CFR 46.204): As documented in the file, research that where scientifically appropriate, preclinical studies, including studies on pregnant animals, and clinical studies, including studies on nonpregnant women, have been conducted and provide data for assessing potential risks to pregnant women and fetuses; the risk to the fetus is caused solely by interventions or procedures that hold out the prospect of direct benefit for the woman or the fetus; or, if there is no such prospect of benefit, the risk to the fetus is not greater than minimal and the purpose of the research is the development of important biomedical knowledge which cannot be obtained by any other means; any risk is the least possible for achieving the objectives of the research; if the research holds out the prospect of direct benefit to the pregnant woman, the prospect of a direct benefit both to the pregnant woman and the fetus, or no prospect of benefit for the woman nor the fetus when risk to the fetus is not greater than minimal and the purpose of the research is the development of important biomedical knowledge that cannot be obtained by any other means, her consent is obtained in accord with the informed consent provisions of subpart A of this part; if the research holds out the prospect of direct benefit solely to the fetus then the consent of the pregnant woman and the father is obtained in accord with the informed consent provisions of subpart A of this part, except that the father's consent need not be obtained if he is unable to consent because of unavailability, incompetence, or temporary incapacity or the pregnancy resulted from rape or incest; each individual providing consent is fully informed regarding the reasonably foreseeable impact of the research on the fetus or neonate; for children as defined in 46.402(a) who are pregnant, assent and permission are obtained in accord with the provisions of subpart D of 45 CFR 46.; no inducements, monetary or otherwise, will be offered to terminate a pregnancy; individuals engaged in the research will have no part in any decisions as to the timing, method, or procedures used to terminate a pregnancy; individuals engaged in the research will have no part in determining the viability of a neonate.</irb:MinuteEntry>
+			</irb:Minutes>
+			<irb:Minutes>
+				<irb:ScheduleId>19419</irb:ScheduleId>
+				<irb:EntryNumber>3</irb:EntryNumber>
+				<irb:EntryTypeCode>6</irb:EntryTypeCode>
+				<irb:EntryTypeDesc>Protocol Reviewer Comment</irb:EntryTypeDesc>
+				<irb:EntrySortCode>6</irb:EntrySortCode>
+				<irb:ProtocolNumber>1305013194</irb:ProtocolNumber>
+				<irb:PrivateCommentFlag>true</irb:PrivateCommentFlag>
+				<irb:ProtocolContingencyCode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+				<irb:MinuteEntry>Kari manually adding comments during the online review.</irb:MinuteEntry>
+			</irb:Minutes>
+			<irb:ScheduleMasterData>
+				<irb:ScheduleId>13344</irb:ScheduleId>
+				<irb:CommitteeId>Chairs</irb:CommitteeId>
+				<irb:CommitteeName>Expedited/Exempt</irb:CommitteeName>
+				<irb:ScheduleStatusCode>1</irb:ScheduleStatusCode>
+				<irb:ScheduleStatusDesc>Scheduled</irb:ScheduleStatusDesc>
+				<irb:ScheduledDate>2013-06-02-07:00</irb:ScheduledDate>
+				<irb:ScheduledTime>12:00:00.000-07:00</irb:ScheduledTime>
+				<irb:Place>HSPP</irb:Place>
+				<irb:ProtocolSubDeadline>2013-06-02-07:00</irb:ProtocolSubDeadline>
+				<irb:StartTime>00:00:00.000-07:00</irb:StartTime>
+				<irb:EndTime>00:00:00.000-07:00</irb:EndTime>
+				<irb:MaxProtocols>2500</irb:MaxProtocols>
+			</irb:ScheduleMasterData>
+			<irb:NextSchedule>
+				<irb:ScheduleMasterData>
+					<irb:ScheduleId>13342</irb:ScheduleId>
+					<irb:CommitteeId>Chairs</irb:CommitteeId>
+					<irb:CommitteeName>Expedited/Exempt</irb:CommitteeName>
+					<irb:ScheduleStatusCode>1</irb:ScheduleStatusCode>
+					<irb:ScheduleStatusDesc>Scheduled</irb:ScheduleStatusDesc>
+					<irb:ScheduledDate>2013-05-26-07:00</irb:ScheduledDate>
+					<irb:ScheduledTime>12:00:00.000-07:00</irb:ScheduledTime>
+					<irb:Place>HSPP</irb:Place>
+					<irb:ProtocolSubDeadline>2013-05-26-07:00</irb:ProtocolSubDeadline>
+					<irb:StartTime>00:00:00.000-07:00</irb:StartTime>
+					<irb:EndTime>00:00:00.000-07:00</irb:EndTime>
+					<irb:MaxProtocols>2500</irb:MaxProtocols>
+				</irb:ScheduleMasterData>
+			</irb:NextSchedule>
+			<irb:CurrentSubmissionFlag>Yes</irb:CurrentSubmissionFlag>
+		</irb:Submissions>
+	</irb:Protocol>
+	<irb:CurrentDate>2013-05-29-07:00</irb:CurrentDate>
+</irb:Correspondence>
