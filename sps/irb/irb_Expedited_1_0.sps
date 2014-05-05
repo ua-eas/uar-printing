@@ -6,7 +6,7 @@
 			<nspair prefix="n1" uri="http://irb.mit.edu/irbnamespace"/>
 		</namespaces>
 		<schemasources>
-			<xsdschemasource name="XML" main="1" schemafile="new_irb.xsd" workingxmlfile="trueCorrespondence2014-04-2316_26_31.818.xml"/>
+			<xsdschemasource name="XML" main="1" schemafile="irb.xsd" workingxmlfile="trueCorrespondence2014-04-2316_26_31.818.xml"/>
 		</schemasources>
 	</schemasources>
 	<modules/>
