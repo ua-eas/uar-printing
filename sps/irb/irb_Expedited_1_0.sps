@@ -6,7 +6,7 @@
 			<nspair prefix="n1" uri="http://irb.mit.edu/irbnamespace"/>
 		</namespaces>
 		<schemasources>
-			<xsdschemasource name="XML" main="1" schemafile="irb.xsd" workingxmlfile="trueCorrespondence2014-04-2316_26_31.818.xml"/>
+			<xsdschemasource name="XML" main="1" schemafile="irb.xsd" workingxmlfile="irb_general_letter.xml"/>
 		</schemasources>
 	</schemasources>
 	<modules/>
@@ -474,14 +474,18 @@
 																											<template subtype="element" match="n1:Attachments">
 																												<children>
 																													<template subtype="element" filter="n1:AttachmentProtocolNumber = ../../n1:ProtocolMasterData/n1:ProtocolNumber" match="n1:AttachmentProtocol">
+																														<sort>
+																															<key match="n1:AttachmentType"/>
+																															<key match="n1:AttachmentFilename"/>
+																														</sort>
 																														<children>
 																															<template subtype="element" filter=".!= &apos;General Correspondence&apos;" match="n1:AttachmentType">
 																																<children>
 																																	<content subtype="regular">
-																																		<styles font-family="Calibri" font-size="12pt"/>
+																																		<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
 																																	</content>
 																																	<text fixtext=": ">
-																																		<styles font-family="Calibri" font-size="12pt"/>
+																																		<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
 																																	</text>
 																																</children>
 																																<variables/>
@@ -489,7 +493,7 @@
 																															<template subtype="element" filter="../n1:AttachmentType!= &apos;General Correspondence&apos;" match="n1:AttachmentFilename">
 																																<children>
 																																	<content subtype="regular">
-																																		<styles font-family="Calibri" font-size="12pt"/>
+																																		<styles font-family="Calibri" font-size="12pt" font-style="italic"/>
 																																	</content>
 																																	<newline/>
 																																</children>
@@ -513,6 +517,7 @@
 																					<text fixtext=" ">
 																						<styles font-family="Calibri" font-size="12pt"/>
 																					</text>
+																					<newline/>
 																				</children>
 																			</tgridcell>
 																		</children>

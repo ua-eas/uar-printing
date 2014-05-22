@@ -332,23 +332,25 @@
 																						<xsl:for-each select="n1:Protocol">
 																							<xsl:for-each select="n1:Attachments">
 																								<xsl:for-each select="n1:AttachmentProtocol[n1:AttachmentProtocolNumber = ../../n1:ProtocolMasterData/n1:ProtocolNumber]">
+																									<xsl:sort select="n1:AttachmentType" data-type="text" order="ascending"/>
+																									<xsl:sort select="n1:AttachmentFilename" data-type="text" order="ascending"/>
 																									<xsl:for-each select="n1:AttachmentType[.!= &apos;General Correspondence&apos;]">
 																										<xsl:variable name="value-of-template_9">
 																											<xsl:apply-templates/>
 																										</xsl:variable>
 																										<xsl:choose>
 																											<xsl:when test="contains(string($value-of-template_9),'&#x200B;')">
-																												<fo:block font-family="Calibri" font-size="12pt">
+																												<fo:block font-family="Calibri" font-size="12pt" font-weight="bold">
 																													<xsl:copy-of select="$value-of-template_9"/>
 																												</fo:block>
 																											</xsl:when>
 																											<xsl:otherwise>
-																												<fo:inline font-family="Calibri" font-size="12pt">
+																												<fo:inline font-family="Calibri" font-size="12pt" font-weight="bold">
 																													<xsl:copy-of select="$value-of-template_9"/>
 																												</fo:inline>
 																											</xsl:otherwise>
 																										</xsl:choose>
-																										<fo:inline font-family="Calibri" font-size="12pt">
+																										<fo:inline font-family="Calibri" font-size="12pt" font-weight="bold">
 																											<xsl:text>: </xsl:text>
 																										</fo:inline>
 																									</xsl:for-each>
@@ -358,12 +360,12 @@
 																										</xsl:variable>
 																										<xsl:choose>
 																											<xsl:when test="contains(string($value-of-template_10),'&#x200B;')">
-																												<fo:block font-family="Calibri" font-size="12pt">
+																												<fo:block font-family="Calibri" font-size="12pt" font-style="italic">
 																													<xsl:copy-of select="$value-of-template_10"/>
 																												</fo:block>
 																											</xsl:when>
 																											<xsl:otherwise>
-																												<fo:inline font-family="Calibri" font-size="12pt">
+																												<fo:inline font-family="Calibri" font-size="12pt" font-style="italic">
 																													<xsl:copy-of select="$value-of-template_10"/>
 																												</fo:inline>
 																											</xsl:otherwise>
@@ -378,6 +380,7 @@
 																				<fo:inline font-family="Calibri" font-size="12pt">
 																					<xsl:text>&#160;</xsl:text>
 																				</fo:inline>
+																				<fo:block/>
 																			</fo:block>
 																		</fo:block-container>
 																	</fo:table-cell>
