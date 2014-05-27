@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<structure version="16" xsltversion="1" html-doctype="HTML4 Transitional" compatibility-view="IE9" relativeto="*SPS" encodinghtml="UTF-8" encodingrtf="ISO-8859-1" encodingpdf="UTF-8" useimportschema="1" embed-images="1" ShowDesignMarkups="2" enable-authentic-scripts="1" authentic-scripts-in-debug-mode-external="0" generated-file-location="DEFAULT">
+<structure version="16" xsltversion="1" html-doctype="HTML4 Transitional" compatibility-view="IE9" relativeto="*SPS" encodinghtml="UTF-8" encodingrtf="ISO-8859-1" encodingpdf="UTF-8" useimportschema="1" embed-images="1" enable-authentic-scripts="1" authentic-scripts-in-debug-mode-external="0" generated-file-location="DEFAULT">
 	<parameters/>
 	<schemasources>
 		<namespaces>
 			<nspair prefix="n1" uri="http://irb.mit.edu/irbnamespace"/>
 		</namespaces>
 		<schemasources>
-			<xsdschemasource name="XML" main="1" schemafile="new_irb.xsd" workingxmlfile="trueCorrespondence2014-04-2316_26_31.818.xml"/>
+			<xsdschemasource name="XML" main="1" schemafile="irb.xsd" workingxmlfile="trueCorrespondence2014-04-2316_26_31.818.xml"/>
 		</schemasources>
 	</schemasources>
 	<modules/>
@@ -427,14 +427,18 @@
 																											<template subtype="element" match="n1:Attachments">
 																												<children>
 																													<template subtype="element" filter="n1:AttachmentProtocolNumber = ../../n1:ProtocolMasterData/n1:ProtocolNumber" match="n1:AttachmentProtocol">
+																														<sort>
+																															<key match="n1:AttachmentType"/>
+																															<key match="n1:AttachmentFilename"/>
+																														</sort>
 																														<children>
 																															<template subtype="element" filter=".!= &apos;General Correspondence&apos;" match="n1:AttachmentType">
 																																<children>
 																																	<content subtype="regular">
-																																		<styles font-family="Calibri" font-size="12pt"/>
+																																		<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
 																																	</content>
 																																	<text fixtext=": ">
-																																		<styles font-family="Calibri" font-size="12pt"/>
+																																		<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
 																																	</text>
 																																</children>
 																																<variables/>
@@ -442,7 +446,7 @@
 																															<template subtype="element" filter="../n1:AttachmentType!= &apos;General Correspondence&apos;" match="n1:AttachmentFilename">
 																																<children>
 																																	<content subtype="regular">
-																																		<styles font-family="Calibri" font-size="12pt"/>
+																																		<styles font-family="Calibri" font-size="12pt" font-style="italic"/>
 																																	</content>
 																																	<newline/>
 																																</children>
