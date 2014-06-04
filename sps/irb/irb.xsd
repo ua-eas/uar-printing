@@ -958,6 +958,13 @@
 	    <xs:element name="AttachmentDescription" type="xs:string" />
 	    <xs:element name="AttachmentCreateTimestamp" type="xs:date" />
 	    <xs:element name="AttachmentVersion" type="xs:integer" />
+	    <xs:element name="AttachmentProtocolNumber">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="20" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
   	  </xs:sequence>
   	</xs:complexType>
   </xs:element>
