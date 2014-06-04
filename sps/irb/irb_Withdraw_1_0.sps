@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<structure version="16" xsltversion="1" html-doctype="HTML4 Transitional" compatibility-view="IE9" relativeto="*SPS" encodinghtml="UTF-8" encodingrtf="ISO-8859-1" encodingpdf="UTF-8" useimportschema="1" embed-images="1" ShowDesignMarkups="2" enable-authentic-scripts="1" authentic-scripts-in-debug-mode-external="0" generated-file-location="DEFAULT">
-	<predefinedformats>
-		<format basic-type="xsd" string="Month DD&apos;,&apos; YYYY" datatype="date"/>
-	</predefinedformats>
+<structure version="16" xsltversion="1" html-doctype="HTML4 Transitional" compatibility-view="IE9" relativeto="*SPS" encodinghtml="UTF-8" encodingrtf="ISO-8859-1" encodingpdf="UTF-8" useimportschema="1" embed-images="1" enable-authentic-scripts="1" authentic-scripts-in-debug-mode-external="0" generated-file-location="DEFAULT">
 	<parameters/>
 	<schemasources>
 		<namespaces>
@@ -41,10 +38,10 @@
 							<text transparency="50"/>
 						</watermark>
 					</documentsection>
-					<layout-container locksize="1">
-						<styles height="3.50in" overflow="hidden" position="relative" width="5in"/>
+					<layout-container>
+						<styles height="1.32in" overflow="hidden" position="relative" width="7.86in"/>
 						<children>
-							<textbox autoresize="1" additional-width="20%" additional-height="0.20in">
+							<textbox autoresize="1" additional-width="0.25in" additional-height="0.20in">
 								<styles font-size="x-small" height="0.96in" left="5.77in" overflow="hidden" padding="2px" position="absolute" top="0in" width="1.49in"/>
 								<children>
 									<newline/>
@@ -69,7 +66,7 @@
 									</text>
 								</children>
 							</textbox>
-							<textbox autoresize="1" additional-width="20%" additional-height="0.26in">
+							<textbox autoresize="1" additional-width="0.17in" additional-height="0.26in">
 								<styles font-size="x-small" height="0.90in" left="4in" overflow="hidden" padding="2px" position="absolute" text-align="center" top="0in" width="1.06in"/>
 								<children>
 									<newline/>
@@ -97,78 +94,152 @@
 									</text>
 								</children>
 							</textbox>
-							<textbox autoresize="1" additional-width="6.96in" additional-height="6.54in">
-								<styles height="1257px" left="0in" overflow="hidden" padding="2px" position="absolute" top="1.40in" width="1451px"/>
+							<textbox autoresize="1" additional-width="0in" additional-height="0in">
+								<styles height="0in" left="0.40in" overflow="hidden" padding="2px" position="absolute" top="8.20in" width="0in"/>
 								<children>
-									<tgrid>
-										<properties border="1"/>
-										<styles border="none"/>
-										<children>
-											<tgridbody-cols>
-												<children>
-													<tgridcol>
-														<styles width="7.98in"/>
-													</tgridcol>
-												</children>
-											</tgridbody-cols>
-											<tgridbody-rows>
-												<children>
-													<tgridrow>
-														<styles height="6.39in"/>
-														<children>
-															<tgridcell/>
-														</children>
-													</tgridrow>
-												</children>
-											</tgridbody-rows>
-										</children>
-									</tgrid>
+									<newline/>
+									<newline/>
 								</children>
 							</textbox>
-							<textbox autoresize="1" additional-width="2.94in" additional-height="3.74in">
-								<styles height="676px" left="0.20in" overflow="hidden" padding="2px" position="absolute" top="1.60in" width="974px"/>
+							<textbox autoresize="1" additional-width="0.01in" additional-height="0.02in">
+								<styles height="0.21in" left="-1.20in" overflow="hidden" padding="2px" position="absolute" top="3.40in" width="0.05in"/>
+							</textbox>
+						</children>
+					</layout-container>
+					<tgrid>
+						<properties border="1"/>
+						<styles border="none"/>
+						<children>
+							<tgridbody-cols>
 								<children>
-									<tgrid>
-										<properties border="1"/>
-										<styles border="none"/>
+									<tgridcol>
+										<styles width="1.72in"/>
+									</tgridcol>
+									<tgridcol>
+										<styles width="4.93in"/>
+									</tgridcol>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
 										<children>
-											<tgridbody-cols>
+											<tgridcell>
+												<styles border="none" border-right="none"/>
 												<children>
-													<tgridcol>
-														<styles width="1.72in"/>
-													</tgridcol>
-													<tgridcol>
-														<styles width="4.93in"/>
-													</tgridcol>
+													<text fixtext="Date:">
+														<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+													</text>
+													<text fixtext=" ">
+														<styles font-family="Calibri" font-size="12pt"/>
+													</text>
 												</children>
-											</tgridbody-cols>
-											<tgridbody-rows>
+											</tgridcell>
+											<tgridcell>
+												<styles border="none"/>
 												<children>
-													<tgridrow>
+													<template subtype="source" match="XML">
 														<children>
-															<tgridcell>
-																<styles border="none" border-right="none"/>
+															<template subtype="element" match="n1:Correspondence">
 																<children>
-																	<text fixtext="Date:">
-																		<styles font-family="Calibri" font-weight="bold"/>
-																	</text>
-																	<text fixtext=" ">
-																		<styles font-family="Calibri"/>
-																	</text>
-																</children>
-															</tgridcell>
-															<tgridcell>
-																<styles border="none"/>
-																<children>
-																	<template subtype="source" match="XML">
+																	<template subtype="element" match="n1:CurrentDate">
 																		<children>
-																			<template subtype="element" match="n1:Correspondence">
+																			<content subtype="regular">
+																				<styles font-family="Calibri" font-size="12pt"/>
+																				<format basic-type="xsd" string="Month DD&apos;,&apos; YYYY" datatype="date"/>
+																			</content>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<styles border-left="none" border-right="none" border-top="none"/>
+												<children>
+													<text fixtext="Principal Investigator:">
+														<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+													</text>
+													<text fixtext=" ">
+														<styles font-family="Calibri" font-size="12pt"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<styles border-left="none" border-right="none" border-top="none"/>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="n1:Correspondence">
+																<children>
+																	<template subtype="element" match="n1:Protocol">
+																		<children>
+																			<template subtype="element" match="n1:Investigator">
 																				<children>
-																					<template subtype="element" match="n1:CurrentDate">
+																					<template subtype="element" match="n1:Person">
+																						<children>
+																							<template subtype="element" match="n1:Fullname">
+																								<children>
+																									<content subtype="regular">
+																										<styles font-family="Calibri" font-size="12pt"/>
+																									</content>
+																								</children>
+																								<variables/>
+																							</template>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<styles border="none" border-right="none"/>
+												<children>
+													<text fixtext="Protocol Number:">
+														<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<styles border="none"/>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="n1:Correspondence">
+																<children>
+																	<template subtype="element" match="n1:Protocol">
+																		<children>
+																			<template subtype="element" match="n1:ProtocolMasterData">
+																				<children>
+																					<template subtype="element" match="n1:ProtocolNumber">
 																						<children>
 																							<content subtype="regular">
 																								<styles font-family="Calibri" font-size="12pt"/>
-																								<format basic-type="xsd" string="Month DD&apos;,&apos; YYYY" datatype="date"/>
+																								<format basic-type="xsd" datatype="int"/>
 																							</content>
 																						</children>
 																						<variables/>
@@ -180,49 +251,42 @@
 																		<variables/>
 																	</template>
 																</children>
-															</tgridcell>
+																<variables/>
+															</template>
 														</children>
-													</tgridrow>
-													<tgridrow>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<properties valign="top"/>
+												<styles border-left="none" border-right="none" border-top="none"/>
+												<children>
+													<text fixtext="Protocol Title:">
+														<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<styles border-left="none" border-right="none" border-top="none"/>
+												<children>
+													<template subtype="source" match="XML">
 														<children>
-															<tgridcell>
-																<styles border-left="none" border-right="none" border-top="none"/>
+															<template subtype="element" match="n1:Correspondence">
 																<children>
-																	<text fixtext="Principal Investigator:">
-																		<styles font-family="Calibri" font-weight="bold"/>
-																	</text>
-																	<text fixtext=" ">
-																		<styles font-family="Calibri"/>
-																	</text>
-																</children>
-															</tgridcell>
-															<tgridcell>
-																<styles border-left="none" border-right="none" border-top="none"/>
-																<children>
-																	<template subtype="source" match="XML">
+																	<template subtype="element" match="n1:Protocol">
 																		<children>
-																			<template subtype="element" match="n1:Correspondence">
+																			<template subtype="element" match="n1:ProtocolMasterData">
 																				<children>
-																					<template subtype="element" match="n1:Protocol">
+																					<template subtype="element" match="n1:ProtocolTitle">
 																						<children>
-																							<template subtype="element" match="n1:Investigator">
-																								<children>
-																									<template subtype="element" match="n1:Person">
-																										<children>
-																											<template subtype="element" match="n1:Fullname">
-																												<children>
-																													<content subtype="regular">
-																														<styles font-family="Calibri"/>
-																													</content>
-																												</children>
-																												<variables/>
-																											</template>
-																										</children>
-																										<variables/>
-																									</template>
-																								</children>
-																								<variables/>
-																							</template>
+																							<content subtype="regular">
+																								<styles font-family="Calibri" font-size="12pt"/>
+																							</content>
 																						</children>
 																						<variables/>
 																					</template>
@@ -233,159 +297,64 @@
 																		<variables/>
 																	</template>
 																</children>
-															</tgridcell>
+																<variables/>
+															</template>
 														</children>
-													</tgridrow>
-													<tgridrow>
-														<children>
-															<tgridcell>
-																<styles border="none" border-right="none"/>
-																<children>
-																	<text fixtext="Protocol Number:">
-																		<styles font-family="Calibri" font-weight="bold"/>
-																	</text>
-																</children>
-															</tgridcell>
-															<tgridcell>
-																<styles border="none"/>
-																<children>
-																	<template subtype="source" match="XML">
-																		<children>
-																			<template subtype="element" match="n1:Correspondence">
-																				<children>
-																					<template subtype="element" match="n1:Protocol">
-																						<children>
-																							<template subtype="element" match="n1:ProtocolMasterData">
-																								<children>
-																									<template subtype="element" match="n1:ProtocolNumber">
-																										<children>
-																											<content subtype="regular">
-																												<styles font-family="Calibri"/>
-																												<format basic-type="xsd" datatype="int"/>
-																											</content>
-																										</children>
-																										<variables/>
-																									</template>
-																								</children>
-																								<variables/>
-																							</template>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-															</tgridcell>
-														</children>
-													</tgridrow>
-													<tgridrow>
-														<children>
-															<tgridcell>
-																<properties valign="top"/>
-																<styles border-left="none" border-right="none" border-top="none"/>
-																<children>
-																	<text fixtext="Protocol Title:">
-																		<styles font-family="Calibri" font-weight="bold"/>
-																	</text>
-																</children>
-															</tgridcell>
-															<tgridcell>
-																<styles border-left="none" border-right="none" border-top="none"/>
-																<children>
-																	<template subtype="source" match="XML">
-																		<children>
-																			<template subtype="element" match="n1:Correspondence">
-																				<children>
-																					<template subtype="element" match="n1:Protocol">
-																						<children>
-																							<template subtype="element" match="n1:ProtocolMasterData">
-																								<children>
-																									<template subtype="element" match="n1:ProtocolTitle">
-																										<children>
-																											<content subtype="regular">
-																												<styles font-family="Calibri"/>
-																											</content>
-																										</children>
-																										<variables/>
-																									</template>
-																								</children>
-																								<variables/>
-																							</template>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-															</tgridcell>
-														</children>
-													</tgridrow>
-													<tgridrow>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<styles border="none"/>
+										<children>
+											<tgridcell>
+												<styles border="none" border-right="none"/>
+												<children>
+													<tgrid>
+														<properties border="1" width="100%"/>
 														<styles border="none"/>
 														<children>
-															<tgridcell>
-																<styles border="none" border-right="none"/>
+															<tgridbody-cols>
 																<children>
-																	<tgrid>
-																		<properties border="1" width="100%"/>
+																	<tgridcol>
+																		<styles width="1.72in"/>
+																	</tgridcol>
+																	<tgridcol/>
+																</children>
+															</tgridbody-cols>
+															<tgridbody-rows>
+																<children>
+																	<tgridrow>
 																		<styles border="none"/>
 																		<children>
-																			<tgridbody-cols>
+																			<tgridcell>
+																				<styles border="none" border-right="none"/>
 																				<children>
-																					<tgridcol>
-																						<styles width="1.72in"/>
-																					</tgridcol>
-																					<tgridcol/>
+																					<text fixtext="Level of Review:">
+																						<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+																					</text>
 																				</children>
-																			</tgridbody-cols>
-																			<tgridbody-rows>
+																			</tgridcell>
+																			<tgridcell>
+																				<styles border="none" border-right="none"/>
 																				<children>
-																					<tgridrow>
-																						<styles border="none"/>
+																					<template subtype="source" match="XML">
 																						<children>
-																							<tgridcell>
-																								<styles border="none" border-right="none"/>
+																							<template subtype="element" match="n1:Correspondence">
 																								<children>
-																									<text fixtext="Level of Review">
-																										<styles font-family="Calibri" font-weight="bold"/>
-																									</text>
-																									<text fixtext=":">
-																										<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
-																									</text>
-																								</children>
-																							</tgridcell>
-																							<tgridcell>
-																								<styles border="none" border-right="none"/>
-																								<children>
-																									<template subtype="source" match="XML">
+																									<template subtype="element" match="n1:Protocol">
 																										<children>
-																											<template subtype="element" match="n1:Correspondence">
+																											<template subtype="element" match="n1:Submissions">
 																												<children>
-																													<template subtype="element" match="n1:Protocol">
+																													<template subtype="element" match="n1:SubmissionDetails">
 																														<children>
-																															<template subtype="element" match="n1:Submissions">
+																															<template subtype="element" match="n1:ProtocolReviewTypeDesc">
 																																<children>
-																																	<template subtype="element" match="n1:SubmissionDetails">
-																																		<children>
-																																			<template subtype="element" match="n1:ProtocolReviewTypeDesc">
-																																				<children>
-																																					<content subtype="regular">
-																																						<styles font-family="Calibri" font-size="12pt"/>
-																																					</content>
-																																				</children>
-																																				<variables/>
-																																			</template>
-																																		</children>
-																																		<variables/>
-																																	</template>
+																																	<content subtype="regular">
+																																		<styles font-family="Calibri" font-size="12pt"/>
+																																	</content>
 																																</children>
 																																<variables/>
 																															</template>
@@ -399,121 +368,188 @@
 																										<variables/>
 																									</template>
 																								</children>
-																							</tgridcell>
+																								<variables/>
+																							</template>
 																						</children>
-																					</tgridrow>
-																					<tgridrow>
-																						<styles border="none"/>
-																						<children>
-																							<tgridcell>
-																								<styles border-bottom-width="thick" border-left="none" border-right="none" border-top="none"/>
-																								<children>
-																									<text fixtext="Determination:">
-																										<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
-																									</text>
-																								</children>
-																							</tgridcell>
-																							<tgridcell>
-																								<styles border-bottom-width="thick" border-left="none" border-right="none" border-top="none"/>
-																								<children>
-																									<text fixtext="Withdrawn">
-																										<styles font-family="Calibri" font-size="12pt"/>
-																									</text>
-																								</children>
-																							</tgridcell>
-																						</children>
-																					</tgridrow>
+																						<variables/>
+																					</template>
 																				</children>
-																			</tgridbody-rows>
+																			</tgridcell>
 																		</children>
-																	</tgrid>
-																</children>
-															</tgridcell>
-															<tgridcell joinleft="1"/>
-														</children>
-													</tgridrow>
-													<tgridrow>
-														<children>
-															<tgridcell>
-																<styles border="none" border-right="none"/>
-																<children>
-																	<tgrid>
-																		<properties border="1"/>
+																	</tgridrow>
+																	<tgridrow>
 																		<styles border="none"/>
 																		<children>
-																			<tgridbody-cols>
+																			<tgridcell>
+																				<styles border-left="none" border-right="none" border-top="none"/>
 																				<children>
-																					<tgridcol>
-																						<styles width="6.83in"/>
-																					</tgridcol>
+																					<text fixtext="Determination:">
+																						<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+																					</text>
 																				</children>
-																			</tgridbody-cols>
-																			<tgridbody-rows>
+																			</tgridcell>
+																			<tgridcell>
+																				<styles border-left="none" border-right="none" border-top="none"/>
 																				<children>
-																					<tgridrow>
+																					<text fixtext="Withdrawn">
+																						<styles font-family="Calibri" font-size="12pt"/>
+																					</text>
+																				</children>
+																			</tgridcell>
+																		</children>
+																	</tgridrow>
+																</children>
+															</tgridbody-rows>
+															<tgridfooter-rows>
+																<properties valign="top"/>
+																<children>
+																	<tgridrow>
+																		<children>
+																			<tgridcell>
+																				<properties valign="top"/>
+																				<styles border-bottom-width="thick" border-left="none" border-right="none" border-top="none" text-align="left"/>
+																				<children>
+																					<text fixtext="Documents Reviewed Concurrently:">
+																						<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+																					</text>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<properties valign="top"/>
+																				<styles border-bottom-width="thick" border-left="none" border-right="none" border-top="none" text-align="left"/>
+																				<children>
+																					<template subtype="source" match="XML">
 																						<children>
-																							<tgridcell>
-																								<styles border="none"/>
-																							</tgridcell>
-																						</children>
-																					</tgridrow>
-																					<tgridrow>
-																						<children>
-																							<tgridcell>
-																								<styles border="none" border-bottom="none" border-left="none" border-right="none"/>
+																							<template subtype="element" match="n1:Correspondence">
 																								<children>
-																									<text fixtext=" ">
+																									<template subtype="element" match="n1:Protocol">
+																										<children>
+																											<template subtype="element" match="n1:Attachments">
+																												<children>
+																													<template subtype="element" filter="n1:AttachmentProtocolNumber = ../../n1:ProtocolMasterData/n1:ProtocolNumber" match="n1:AttachmentProtocol">
+																														<sort>
+																															<key match="n1:AttachmentType"/>
+																															<key match="n1:AttachmentFilename"/>
+																														</sort>
+																														<children>
+																															<template subtype="element" filter=".!= &apos;General Correspondence&apos;" match="n1:AttachmentType">
+																																<children>
+																																	<content subtype="regular">
+																																		<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+																																	</content>
+																																	<text fixtext=": ">
+																																		<styles font-family="Calibri" font-size="12pt" font-weight="bold"/>
+																																	</text>
+																																</children>
+																																<variables/>
+																															</template>
+																															<template subtype="element" filter="../n1:AttachmentType!= &apos;General Correspondence&apos;" match="n1:AttachmentFilename">
+																																<children>
+																																	<content subtype="regular">
+																																		<styles font-family="Calibri" font-size="12pt" font-style="italic"/>
+																																	</content>
+																																	<newline/>
+																																</children>
+																																<variables/>
+																															</template>
+																														</children>
+																														<variables/>
+																													</template>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																								<variables/>
+																							</template>
+																						</children>
+																						<variables/>
+																					</template>
+																					<text fixtext=" ">
+																						<styles font-family="Calibri" font-size="12pt"/>
+																					</text>
+																				</children>
+																			</tgridcell>
+																		</children>
+																	</tgridrow>
+																</children>
+															</tgridfooter-rows>
+														</children>
+													</tgrid>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<styles border="none" border-right="none"/>
+												<children>
+													<tgrid>
+														<properties border="1"/>
+														<styles border="none"/>
+														<children>
+															<tgridbody-cols>
+																<children>
+																	<tgridcol>
+																		<styles width="6.65in"/>
+																	</tgridcol>
+																</children>
+															</tgridbody-cols>
+															<tgridheader-rows>
+																<children>
+																	<tgridrow>
+																		<children>
+																			<tgridcell>
+																				<styles border="none"/>
+																				<children>
+																					<text fixtext=" "/>
+																					<newline/>
+																				</children>
+																			</tgridcell>
+																		</children>
+																	</tgridrow>
+																</children>
+															</tgridheader-rows>
+															<tgridbody-rows>
+																<children>
+																	<tgridrow>
+																		<children>
+																			<tgridcell>
+																				<styles border="none" border-bottom="none" border-left="none" border-right="none"/>
+																				<children>
+																					<list>
+																						<properties start="0"/>
+																						<children>
+																							<listrow>
+																								<children>
+																									<text fixtext="This submission is being returned either at the request of the PI or due to lack of response from the PI.">
 																										<styles border="none" font-family="Calibri" font-size="12pt"/>
 																									</text>
 																								</children>
-																							</tgridcell>
+																							</listrow>
 																						</children>
-																					</tgridrow>
-																					<tgridrow>
-																						<children>
-																							<tgridcell>
-																								<styles border="none" border-right="none"/>
-																								<children>
-																									<list>
-																										<properties start="0"/>
-																										<children>
-																											<listrow>
-																												<children>
-																													<text fixtext="This submission is being returned either at the request of the PI or due to lack of">
-																														<styles border="none" font-family="Calibri" font-size="12pt"/>
-																													</text>
-																												</children>
-																											</listrow>
-																										</children>
-																									</list>
-																									<text fixtext="       response from the PI.">
-																										<styles font-family="Calibri" font-size="12pt"/>
-																									</text>
-																									<newline/>
-																								</children>
-																							</tgridcell>
-																						</children>
-																					</tgridrow>
+																					</list>
 																				</children>
-																			</tgridbody-rows>
+																			</tgridcell>
 																		</children>
-																	</tgrid>
+																	</tgridrow>
 																</children>
-															</tgridcell>
-															<tgridcell joinleft="1"/>
+															</tgridbody-rows>
 														</children>
-													</tgridrow>
+													</tgrid>
 												</children>
-											</tgridbody-rows>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
 										</children>
-									</tgrid>
+									</tgridrow>
 								</children>
-							</textbox>
-							<textbox autoresize="1" additional-width="20%" additional-height="0.05in">
-								<styles border="none" height="23px" left="0in" overflow="hidden" padding="2px" position="absolute" top="4.19in" width="5px"/>
-							</textbox>
+							</tgridbody-rows>
 						</children>
-					</layout-container>
+					</tgrid>
 				</children>
 			</globaltemplate>
 		</children>
